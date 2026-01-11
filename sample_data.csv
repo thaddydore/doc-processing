@@ -1,0 +1,11 @@
+first_name,last_name,email,phone,status,department
+John,Doe,john.doe@example.com,555-0101,active,Engineering
+Jane,Smith,jane.smith@example.com,555-0102,active,Marketing
+Bob,Johnson,bob.johnson@example.com,555-0103,inactive,Sales
+Alice,Williams,alice.williams@example.com,555-0104,active,Engineering
+Charlie,Brown,charlie.brown@example.com,555-0105,active,HR
+David,Jones,david.jones@example.com,555-0106,inactive,Engineering
+Emma,Garcia,emma.garcia@example.com,555-0107,active,Marketing
+Frank,Miller,frank.miller@example.com,555-0108,active,Sales
+Grace,Davis,grace.davis@example.com,555-0109,active,Engineering
+Henry,Rodriguez,henry.rodriguez@example.com,555-0110,inactive,Marketing
