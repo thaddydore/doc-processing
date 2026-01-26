@@ -36,19 +36,40 @@ doc_processing/
 
 ## Quick Start
 
-### Backend Setup
+### Using Docker (Recommended)
+
+The easiest way to run the application is with Docker:
+
+```bash
+docker-compose up --build
+```
+
+This will start both the backend and frontend services:
+
+- Frontend: http://localhost
+- Backend API: http://localhost:8000
+- API Docs: http://localhost:8000/docs
+
+For more Docker options and troubleshooting, see [DOCKER.md](DOCKER.md).
+
+### Manual Setup
+
+#### Backend Setup
 
 1. Navigate to backend directory:
+
    ```bash
    cd backend
    ```
 
 2. Create conda environment:
+
    ```bash
    conda env create -f environment.yml
    ```
 
 3. Activate environment:
+
    ```bash
    conda activate doc_processing
    ```
@@ -60,14 +81,16 @@ doc_processing/
 
 The API will be available at `http://localhost:8000`
 
-### Frontend Setup
+#### Frontend Setup
 
 1. Navigate to frontend directory:
+
    ```bash
    cd frontend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -103,12 +126,14 @@ curl -X POST http://localhost:8000/process-file \
 ## Tech Stack
 
 ### Backend
+
 - FastAPI
 - pandas
 - openpyxl
 - Python 3.11
 
 ### Frontend
+
 - React 18
 - Vite
 - TailwindCSS

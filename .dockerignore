@@ -1,0 +1,57 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README.md
+DOCKER.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Environment files (use docker-compose env instead)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Sample and test data
+sample_data.csv
+test_*.csv
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Docker files themselves (when building)
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+.dockerignore
+
+# Package manager files (handled in individual services)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python cache (handled in individual services)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
